@@ -1,0 +1,28 @@
+/*
+Theme Name: verduursamen
+Theme URI: http://www.verduursamen.nl
+Description: verduursamen responsive theme
+Version: 1
+Author: Group of people
+Author URI: nothing yet
+*/
+
+@import url('css/animations.css');
+@import url('css/video.css');
+@import url('css/fonts.css');
+@import url('css/bootstrap.min.css');
+@import url('css/scrolling-nav.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
+@import url('css/header.css');
+@import url('css/blog.css');
+@import url('css/diensten-vpw.css');
+@import url('css/diensten.css');
+@import url('css/home.css');
+@import url('css/overons.css');
+@import url('css/contact.css');
+@import url('css/single.css');
+@import url('css/footer.css');
+
+
+
+

@@ -1,0 +1,349 @@
+@charset "UTF-8";
+/* CSS Document */
+/*-------------Mobile---------------*/
+
+.contactIntro {
+	text-align: center;
+	margin-bottom: 35px;
+	}
+	
+.textfield {
+	text-align: left;
+}
+	
+label {
+}
+
+input {
+	width: 500px;
+	height: 200px;
+}
+
+.verzenden {
+	width: 100px;
+	height: 40px;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white;
+	background-color: #ED6C33;
+	margin-right: 15%;
+	  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.verzenden:hover {
+	background-color: #E3642C;
+}
+
+.opnieuw {
+	width: 100px;
+	height: 40px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	color: white;
+	background-color: #ED6C33;
+	  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.opnieuw:hover {
+	background-color: #E3642C;
+}
+
+.textzone {
+	height: 300px;
+	margin-top: 20px;
+	width: 94%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+textarea {
+	float: right;
+	width: 94%;
+	margin-right: 3%;
+	margin-left: 3%;
+	
+}
+
+.textarea {
+	float: right;
+	width: 94%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+.mailicon {
+	width: 90%;
+	height: 200px;
+}
+
+h4 {
+	color: #ED6C33;
+	font-size: 20px;
+}
+
+.mail {
+	 margin-left: 5%;
+	 margin-right: 5%;
+	 margin-bottom: 0px;
+	 width: 100%;
+     height: 200px;
+}
+
+/*----------------------------*/
+
+@media (min-width: 500px) { 
+.contactIntro {
+	text-align: center;
+	margin-bottom: 35px;
+	}
+
+.verzenden {
+	width: 100px;
+	height: 40px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20%;
+	margin-bottom: 20px;
+	color: white;
+	background-color: #ED6C33;
+}
+
+.verzenden:hover {
+	background-color: #E3642C;
+}
+
+.opnieuw {
+	width: 100px;
+	height: 40px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20%;
+	color: white;
+	background-color: #ED6C33;
+}
+
+.textzone {
+	width: 94%;
+	height: 300px;
+	margin-right: 3%;
+	margin-left: 3%;
+	
+}
+
+textarea {
+	float: left;
+	width: 94%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+.textarea {
+	float: left;
+	width: 94%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+.mailicon {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 50px;
+	width: 200px;
+	height: 200px;
+}
+
+.mail {
+	 margin-left: 5%;
+	 margin-right: 5%;
+	 margin-bottom: 0px;
+	 width: 90%;
+     height: 200px;
+}
+
+}
+
+/*----------------------------*/
+
+
+@media (min-width: 768px) { 
+	
+.textfield {
+	text-align: left;
+}
+	
+label {
+}
+
+input {
+	width: 500px;
+	height: 200px;
+}
+
+.verzenden {
+	width: 100px;
+	height: 40px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 35%;
+	margin-bottom: 20px;
+	color: white;
+	background-color: #ED6C33;
+}
+
+.verzenden:hover {
+	background-color: #E3642C;
+}
+
+.opnieuw {
+	width: 100px;
+	height: 40px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	color: white;
+	background-color: #ED6C33;
+}
+
+.opnieuw:hover {
+	background-color: #E3642C;
+}
+
+.textzone {
+	width: 100%;
+	height: 300px;
+	
+}
+
+textarea {
+	float: right;
+	width: 100%;
+}
+
+.textarea {
+	float: right;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.mailicon {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 50px;
+	width: 75%;
+	height: 200px;
+}
+
+}
+
+/*----------------------------*/
+
+
+/*-------------Desktop---------------*/
+@media (min-width: 1200px) { 
+	
+	.contactIntro {
+	text-align: center;
+	margin-bottom: 35px;
+	}
+	
+.textfield {
+	text-align: left;
+}
+	
+label {
+}
+
+input {
+	width: 500px;
+	height: 200px;
+}
+
+.verzenden {
+	width: 100px;
+	height: 40px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 17%;
+	margin-bottom: 20px;
+	color: white;
+	background-color: #ED6C33;
+}
+
+.verzenden:hover {
+	background-color: #E3642C;
+}
+
+.opnieuw {
+	width: 100px;
+	height: 40px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	color: white;
+	background-color: #ED6C33;
+}
+
+.opnieuw:hover {
+	background-color: #E3642C;
+}
+
+.textzone {
+	width: 500px;
+	height: 300px;
+}
+
+textarea {
+	float: right;
+}
+
+.textarea {
+	float: right;
+}
+
+.mailicon {
+	margin-left: 70px;
+	width: 500px;
+	height: 300px;
+}
+
+.mailicon:hover {
+}
+
+h4 {
+	color: #ED6C33;
+	font-size: 20px;
+}
+	
+.mail {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+  margin-left: 75px;
+  margin-top: 10px;
+  width: 350px;
+  height: 220px;
+}
+ 
+.mail:hover {
+	opacity: 0.8;
+}
+	
+}

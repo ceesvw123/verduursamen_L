@@ -1,0 +1,103 @@
+@media (min-width: 300px) {
+    .presentationImg {
+        width: 100%;
+    }
+    .diensten-text{
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
+@media (min-width: 568px) {
+    .presentationImg {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .presentationImg {
+        width: 65%;
+        display: block;
+        margin: 0 auto;
+    }
+    .diensten-text{
+        width: 31em;
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 1200px) {
+    .presentationImg {
+        width: 80%;
+    }
+    .diensten-text{
+        text-align: left;
+    }
+}
+    /* ----- Aanmeldformulier ----- */
+
+
+    .btn-info {
+        background-color: #ED6C33;
+        border-color: #ED6C33;
+        font-family: PlatteTekst;
+    }
+
+    .btn-info:hover {
+        background-color: #d5612d;
+        border-color: #d5612d;
+    }
+
+    .btn-info:active {
+        background-color: #d5612d;
+        border-color: #d5612d;
+    }
+
+
+
+    input.form-control {
+        margin-top: 20px;
+    }
+
+    .btn-default {
+        background-color: #ED6C33;
+        font-family: PlatteTekst;
+        color: white;
+    }
+
+    .btn-default:hover {
+        background-color: #d5612d;
+        font-family: PlatteTekst;
+        color: white;
+    }
+
+    button.btn.btn-default {
+        margin-top: 20px;
+        width: 150px;
+        height: 40px;
+
+    }
+
+    input.form-control {
+        font-family: PlatteTekst;
+    }
+
+    h4.modal-title {
+        font-family: PlatteTekst;
+    }
+
+
+/* ------ Einde aanmeldformulier ------ */
+
+#container-button{
+    float: right;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+@media (min-width: 1200px) {
+    #container-button {
+        margin-top: 10px;
+    }
+}
+.diensten-text{
+    font-size: 19px;
+}
+.top-buffer { margin-top:50px; }
